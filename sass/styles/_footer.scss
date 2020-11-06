@@ -1,0 +1,11 @@
+@import "./variables";
+@import "./functions";
+@import "./header";
+
+.footer {
+    @include border;
+    @include direction;
+    background:$primaryBGC;
+
+    
+}

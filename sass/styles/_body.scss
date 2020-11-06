@@ -1,0 +1,18 @@
+@import "./header";
+@import "./variables";
+@import "./functions";
+@import "./body";
+
+
+
+.info {
+    background: $footerBGC;
+    flex-direction: column;
+
+    @include border;
+    @include direction;
+}
+
+.info h1{
+    font-size: 200px;
+}

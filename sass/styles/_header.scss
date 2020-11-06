@@ -1,0 +1,29 @@
+@import "./variables";
+@import "./functions";
+
+header{
+    @include border;
+    @include direction;
+
+
+    background: $primaryBGC;
+         button{
+            background: $primaryBtn;
+        &:hover{
+            background: $hoverBtn
+        }
+    }
+    
+}
+
+header button{
+    @include border;
+    @include direction;
+
+    width:525px;
+    text-align: center;
+    font-size: x-large;
+    
+}
+
+
